@@ -92,6 +92,29 @@ body {
 }
 
 
+
+#img1:checked ~ .carousel__bottom .control-1,
+#img2:checked ~ .carousel__bottom .control-2,
+#img3:checked ~ .carousel__bottom .control-3,
+#img4:checked ~ .carousel__bottom .control-4,
+#img5:checked ~ .carousel__bottom .control-5 {
+    border: 0.4vh solid #4269b1;
+	background: #363636;
+    width: 2.3vh;
+    height: 2.3vh;
+    margin: 0.8vh 0.8vh;
+    
+}
+
+#img1:checked ~ .carousel__bottom .control-1:hover,
+#img2:checked ~ .carousel__bottom .control-2:hover,
+#img3:checked ~ .carousel__bottom .control-3:hover,
+#img4:checked ~ .carousel__bottom .control-4:hover,
+#img5:checked ~ .carousel__bottom .control-5:hover {
+    border: 0.4vh solid #ffffff;
+}
+
+
 #item-1 {
     background-image: url(./assets/1.jpg);
     background-repeat:no-repeat;
@@ -158,6 +181,7 @@ body {
     width: 30%;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
     gap: 0.5vh;
 }
 
@@ -165,23 +189,6 @@ body {
 	display: none;
 }
 
-/*Не работает стиль*/
-
-#img1:checked ~ .control label:nth-of-type(1) {
-    border: 0.3vh solid #4269b1;
-	background: #363636;
-}
-
-.carousel input[type=radio]:checked + label {
-    border: 0.3vh solid #4269b1;
-	background: #363636;
-}
-
-.carousel input[type=radio]:disabled + label {
-	background: #efefef;
-	color: #666;
-}
-/**/
 
 .control label {
 	display: inline-block;
