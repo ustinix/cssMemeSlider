@@ -25,12 +25,11 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
-    border: 1px solid #000000;
     background-color: #2e2e2e;
 }
 
 .carousel__window {
-    border-radius: 10px;
+    border-radius: 1vh;
     overflow: hidden;
     margin: 2vh 5vw;
 }
