@@ -218,9 +218,9 @@ body {
 
 @media (max-width: 800px) {
     .carousel__bottom {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
-        height: 15vh;
+        height: 17vh;
         margin: 2vh 5vw;
     }
 
@@ -232,6 +232,7 @@ body {
     .control {
         justify-content: center;
         width: 70%;
+        margin: 0vh 5vw 3vh 5vw;
     }
 
     .item_desc {
@@ -247,7 +248,7 @@ body {
     }
 
     .carousel__bottom {
-        height: 16vh;
+        height: 20vh;
         margin: 2vh 5vw;
     }
 
