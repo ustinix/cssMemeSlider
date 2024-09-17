@@ -206,6 +206,10 @@ body {
     background-color: #ffffff;
 }  
 
+.control label:active  {
+    background-color: #ffffff;
+}  
+
 
 
 @media (max-width: 1290px) {
